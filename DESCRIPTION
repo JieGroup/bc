@@ -1,0 +1,18 @@
+Package: bc
+Title: Model Selection with Bridge Criterion
+Version: 0.0.1
+Authors@R: c(
+    person("Jie", "Ding", email = "dingj@umn.edu", role = c("aut","cre")),
+    person("Vahid", "Tarokh", email = "vahid.tarokh@duke.edu", role = "aut"),
+    person("Yuhong", "Yang", email = "yangx374@umn.edu", role = "aut"))
+Description: Bridge criterion (BC) is a new criterion for variable selection in regression models that satisfies desirable asymptotic properties. It can also performs high dimensional variable selection and prediction based on an extension of BC, referred to as BC with variable ordering.
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: matrixStats (>= 0.54.0), MASS (>= 7.3.5), ncvreg (>= 3.11.0), stats (>= 3.5.1), graphics (>= 3.5.1)
+RoxygenNote: 6.1.1.9000
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
