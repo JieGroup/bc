@@ -7,11 +7,12 @@ Bridge criterion for model selection
 First install the devtools package
 
 install.packages("devtools")
+
 library("devtools")
 
 Then install this package
 
-install_github(‘bc’,’JieGroup')
+install_github('bc', 'JieGroup')
 
 ## Using This Package
 
